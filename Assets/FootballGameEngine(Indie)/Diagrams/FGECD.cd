@@ -1,0 +1,2024 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Patterns.Singleton.Singleton&lt;T&gt;" Collapsed="true">
+    <Position X="11.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Plugins\Patterns\Singleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RobustFSM.Base.BFSM" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="371" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAEAMAIQABUBCAJEIACBEAAYgAIBACBIAhAAATAE=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Plugins\RobustFSM\Core\Base\BFSM.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RobustFSM.Base.BHState" Collapsed="true">
+    <Position X="78" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIABEAMAIQABURCAJEIACBEAAYmAIBGKBIEhAEATAE=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Plugins\RobustFSM\Core\Base\BHState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RobustFSM.Base.BState" Collapsed="true">
+    <Position X="189.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAEAAAAAUQEAAEAAAAAAABEBAQCIAAAAAEAQAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Plugins\RobustFSM\Core\Base\BState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Assets.RobustFSM.Mono.MonoFSM&lt;T&gt;" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYEBECMAqQABUBCAJEIACBEAA4gAIBMCDKEhAgATEE=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Plugins\RobustFSM\Mono\MonoFSM.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Assets.SimpleSteering.Scripts.Movement.RPGMovement" Collapsed="true">
+    <Position X="372.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAWAAQAAANCACAABIiAAQAABEAAAAAAAAgBGAAAAQEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Plugins\SimpleSteering\Movement\Controllers\RPGMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartMenuManagement.Scripts.BMenu" Collapsed="true">
+    <Position X="8.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Plugins\SmartMenuManagement\Scripts\BMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartMenuManagement.Scripts.BSubMenu" Collapsed="true">
+    <Position X="22.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Plugins\SmartMenuManagement\Scripts\BSubMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartMenuManagement.Scripts.Menu" Collapsed="true">
+    <Position X="367.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAEACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Plugins\SmartMenuManagement\Scripts\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartMenuManagement.Scripts.MenuManager" Collapsed="true">
+    <Position X="369.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAABAAAAgQAAIAAEACAACAAAAAAAACEAAQAEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Plugins\SmartMenuManagement\Scripts\MenuManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinishTackleAnimBehaviour" Collapsed="true">
+    <Position X="376.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\AnimationBehaviours\Entities\InFieldPlayer\FinishTackleAnimBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinishTackledAnimBehaviour" Collapsed="true">
+    <Position X="364" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\AnimationBehaviours\Entities\InFieldPlayer\FinishTackledAnimBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.AnimationBehaviours.Shared.WaitThenRandomlyChooseState" Collapsed="true">
+    <Position X="369.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAACAAAAAYAAAAAAAAgAAIAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\AnimationBehaviours\Shared\WaitThenRandomlyChooseState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.AnimationEvents.PlayerAnimationEvents" Collapsed="true">
+    <Position X="376.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAEAAAAAAAAAAAAAAAAAAAAAAACCEAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\AnimationEvents\PlayerAnimationEvents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Controllers.CameraController" Collapsed="true">
+    <Position X="1.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEAgAAEASgAAAgAAAAICAAWAAAAAAAAAgAAAAAAGA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Controllers\CameraController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.InGame.Entities.InGameKitDto" Collapsed="true">
+    <Position X="367.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAIAIAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Data\Dtos\InGame\Entities\InGameKitDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.InGame.Entities.InGamePlayerDto" Collapsed="true">
+    <Position X="369.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQAEARAABIAAA4ACEIABABACgCAAEBDAAEEAAAAJA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Data\Dtos\InGame\Entities\InGamePlayerDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.InGame.Entities.InGameTeamDto" Collapsed="true">
+    <Position X="371" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAIAAAAEAAAEAAABQgAIQSABCkAICAIAgAAAEACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Data\Dtos\InGame\Entities\InGameTeamDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Components.AudioSourceComponentDto" Collapsed="true">
+    <Position X="367.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACAAAAAIAAQAIAACBAAAAAAAAAAAAAAIIAIADAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Data\Dtos\Storage\Components\AudioSourceComponentDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Entities.KitDto" Collapsed="true">
+    <Position X="372.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAIAAAAAAAAAAAAAAEAAQAAAAAAgAAAIAIQAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Data\Dtos\Storage\Entities\KitDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Entities.PlayerDto" Collapsed="true">
+    <Position X="367.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAyAEABAgBIAIA4ACFIABABACgCAAEBDAAEEAAAAJA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Data\Dtos\Storage\Entities\PlayerDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Entities.TeamDto" Collapsed="true">
+    <Position X="376.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABoAAAAEAAgEACAAQAAAQCABCgAICAAAgAAIEIGAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Data\Dtos\Storage\Entities\TeamDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Storage.MatchDifficulties.MatchDifficulty" Collapsed="true">
+    <Position X="374.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>pAAAIAAAAAAQAAAAIAAAAAQAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Data\Dtos\Storage\MatchDifficulties\MatchDifficulty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Storage.MatchDifficulties.MatchDifficultyTeamParam" Collapsed="true">
+    <Position X="376.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EoAAAACQIECIEABgAgJgQEBFgiAEAAABBAAwkRIAABg=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Data\Dtos\Storage\MatchDifficulties\MatchDifficultyTeamParam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Settings.MatchSettingsDto" Collapsed="true">
+    <Position X="364" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAQABAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Data\Dtos\Storage\Settings\MatchSettingsDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Settings.SettingsDto" Collapsed="true">
+    <Position X="374.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAEAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Data\Dtos\Storage\Settings\SettingsDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Data.Dtos.Settings.SoundSettingsDto" Collapsed="true">
+    <Position X="364" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAgKBAEAEAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Data\Dtos\Storage\Settings\SoundSettingsDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Tactics.AttackTactic" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEACAEIQAAAAAAAAAIAAIAAAAAAAAAAAAAEAIBIABg=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Data\Dtos\Storage\Tactics\AttackTactic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Tactics.DefendTactic" Collapsed="true">
+    <Position X="14.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQAAIAAAgAAACAAAEAAAAAAAAAAQAAAAAAIAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Data\Dtos\Storage\Tactics\DefendTactic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Tactics.Tactic" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Data\Dtos\Storage\Tactics\Tactic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Entities.Ball" Collapsed="true">
+    <Position X="19.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIQgAAOIEgABIhMhAEAAAACEKAgAIAEAAACEAAACikA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Entities\Ball.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Entities.Formation" Collapsed="true">
+    <Position X="365.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBgAAAECAAAABEAAAAACAAAAiAAECAAAAACAEAAQA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Entities\Formation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Entities.Goal" Collapsed="true">
+    <Position X="372.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACAAgBAAAgCQAgACEQAAAIAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Entities\Goal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Entities.Pitch" Collapsed="true">
+    <Position X="5.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACQAAAAAAAAABAAAAAAAAABAAAAAAAQEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Entities\Pitch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Entities.Player" Collapsed="true">
+    <Position X="374.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>nrr9vpVQ50aa0/XybKpd49PdvnCDtSGf/K5XunZ3Utw=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Entities\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Entities.SupportSpot" Collapsed="true">
+    <Position X="367.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAIQCAAAABAAAAAAIAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Entities\SupportSpot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Entities.Team" Collapsed="true">
+    <Position X="374.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>U4J2CAGQoOPIFAl7EgZgckDVhiw21CRdJYA6lx4AZlg=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Entities\Team.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Entities.PitchRegions" Collapsed="true">
+    <Position X="372.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgCAAAAAAQAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Entities\Team.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Entities.TeamPlayer" Collapsed="true">
+    <Position X="367.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAABAAQAQIAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Entities\Team.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Entities.CornerGoalKickTriggers" Collapsed="true">
+    <Position X="374.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAgAAAAAIgiAAAAAAAABAAAAAAIAAAIAAAAAAAAEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Entities\CornerGoalKickTriggers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Managers.DataManager" Collapsed="true">
+    <Position X="8" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACgAAEAAAAAAAAAEAAAAQAAAAAAAAAAAgAAAICAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Managers\DataManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Managers.FormationManager" Collapsed="true">
+    <Position X="10.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Managers\FormationManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Managers.GraphicsManager" Collapsed="true">
+    <Position X="12.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBAAABAMBAFQAABAAAAAoAAAEAAAAgABAAAAgAAAEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Managers\GraphicsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Managers.GameManager" Collapsed="true">
+    <Position X="14.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAABAECEACEAAQAAAQAgAABAggEFBwAAKAACAGA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Managers\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Managers.MatchManager" Collapsed="true">
+    <Position X="17" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQgJQQ1YAQEAoSEARwNojAAEIgQaiEgFggACBs5AolA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Managers\MatchManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Managers.SoundManager" Collapsed="true">
+    <Position X="21.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAABAAQAAgAAAABAAACAAEAAAIAAXAAgAAEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Managers\SoundManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Managers.TimeManager" Collapsed="true">
+    <Position X="3.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAQAAAAAAAAAAACAAAAAABAQCAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Managers\TimeManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.References.BallReference" Collapsed="true">
+    <Position X="369.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\References\BallReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Shared.Globals" Collapsed="true">
+    <Position X="371" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Shared\Globals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.StateMachines.Entities.GoalKeeperFSM" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\StateMachines\Entities\GoalKeeperFSM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.StateMachines.Entities.InFieldPlayerFSM" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\StateMachines\Entities\InFieldPlayerFSM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.StateMachines.Entities.TeamFSM" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\StateMachines\Entities\TeamFSM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.StateMachines.Managers.GameManagerFSM" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\StateMachines\Managers\GameManagerFSM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.StateMachines.Managers.MatchManagerFSM" Collapsed="true">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\StateMachines\Managers\MatchManagerFSM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.GoalKeeperStates.GoToHome.MainState.GoToHomeMainState" Collapsed="true">
+    <Position X="75.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABACAAAAAAAQAAAAAAAAAAAAEAAAAIAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\GoalKeeperStates\GoToHome\MainState\GoToHomeMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.GoalKeeperStates.GoToHome.MainState.TendGoalMainState" Collapsed="true">
+    <Position X="231" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAADACAAAAAQQQAAAABAAAAQAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\GoalKeeperStates\TendGoal\MainState\TendGoalMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.GoalKeeperStates.GoToHome.SubStates.SteerToHome" Collapsed="true">
+    <Position X="251.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABACAAAAAAAQAAAAAAAgAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\GoalKeeperStates\GoToHome\SubStates\SteerToHome.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.GoalKeeperStates.GoToHome.SubStates.WaitAtHome" Collapsed="true">
+    <Position X="264.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABACAAAAAAAQAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\GoalKeeperStates\GoToHome\SubStates\WaitAtHome.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.GoalKeeperStates.IdleState.MainState.IdleMainState" Collapsed="true">
+    <Position X="96" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\GoalKeeperStates\IdleState\MainState\IdleMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.GoalKeeperStates.IdleState.SubStates.CheckIfHasBall" Collapsed="true">
+    <Position X="289.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\GoalKeeperStates\IdleState\SubStates\CheckIfHasBall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.GoalKeeperStates.IdleState.SubStates.CheckIfIHaveToTendGoal" Collapsed="true">
+    <Position X="309.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\GoalKeeperStates\IdleState\SubStates\CheckIfIHaveToTendGoal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.GoalKeeperStates.IdleState.SubStates.HoldBall" Collapsed="true">
+    <Position X="327.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAEQAAAAAAAAAAAAEAAAAIAAAAAAQAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\GoalKeeperStates\IdleState\SubStates\HoldBall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.GoalKeeperStates.Init.MainState.InitMainState" Collapsed="true">
+    <Position X="345.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAIAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\GoalKeeperStates\Init\MainState\InitMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.GoalKeeperStates.InteractWithBall.MainState.InteractWithBallMainState" Collapsed="true">
+    <Position X="44.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAUQAAAEAAAAAAAQUAAAAIAAAAACDCCA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\GoalKeeperStates\InteractWithBall\MainState\InteractWithBallMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.GoalKeeperStates.InteractWithBall.SubStates.CatchBall" Collapsed="true">
+    <Position X="33" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\GoalKeeperStates\InteractWithBall\SubStates\CatchBall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.GoalKeeperStates.InteractWithBall.SubStates.CheckRequiredBallInteraction" Collapsed="true">
+    <Position X="114" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAgAAAAQAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\GoalKeeperStates\InteractWithBall\SubStates\CheckRequiredBallInteraction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.GoalKeeperStates.InteractWithBall.SubStates.PunchBall" Collapsed="true">
+    <Position X="132" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAASQAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\GoalKeeperStates\InteractWithBall\SubStates\PunchBall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.GoalKeeperStates.InterceptShot.MainState.InterceptShotMainState" Collapsed="true">
+    <Position X="152.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UQAIAgTwEkGAAVzwgENCAEQIAQQUBAMEIoDAASQDQGA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\GoalKeeperStates\InterceptShot\MainState\InterceptShotMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.GoalKeeperStates.PutBallBackIntoPlay.MainState.PutBallBackIntoPlayMainState" Collapsed="true">
+    <Position X="62.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAEAQAAIAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\GoalKeeperStates\PutBallBackIntoPlay\MainState\PutBallBackIntoPlayMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.GoalKeeperStates.PutBallBackIntoPlay.SubStates.RecoverFromKick" Collapsed="true">
+    <Position X="181.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAQAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\GoalKeeperStates\PutBallBackIntoPlay\SubStates\RecoverFromKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.GoalKeeperStates.PutBallBackIntoPlay.SubStates.TakeCounterKick" Collapsed="true">
+    <Position X="197.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAEQAAAASAAAAAAAkAAAAIAAAAAAABAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\GoalKeeperStates\PutBallBackIntoPlay\SubStates\TakeCounterKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.GoalKeeperStates.TakeGoalKick.MainState.TakeGoalKickMainState" Collapsed="true">
+    <Position X="78" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\GoalKeeperStates\TakeGoalKick\MainState\TakeGoalKickMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.GoalKeeperStates.TakeGoalKick.SubStates.AutomaticTakeGoalKick" Collapsed="true">
+    <Position X="233.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAEQAAAATAAAAAAAEAAAAIAAAAAAABAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\GoalKeeperStates\TakeGoalKick\SubStates\AutomaticTakeGoalKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.GoalKeeperStates.TakeGoalKick.SubStates.ManualTakeGoalKick" Collapsed="true">
+    <Position X="253.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\GoalKeeperStates\TakeGoalKick\SubStates\ManualTakeGoalKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.GoalKeeperStates.TakeGoalKick.SubStates.PrepareToTakeGoalKick" Collapsed="true">
+    <Position X="267" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\GoalKeeperStates\TakeGoalKick\SubStates\PrepareToTakeGoalKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.GoalKeeperStates.TakeGoalKick.SubStates.RecoverFromKick" Collapsed="true">
+    <Position X="280.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAQAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\GoalKeeperStates\TakeGoalKick\SubStates\RecoverFromKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.GoalKeeperStates.Wait.MainState.WaitMainState" Collapsed="true">
+    <Position X="291.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAADAAAAAAAAAAAAAAAAAAAAEAQAQIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\GoalKeeperStates\Wait\MainState\WaitMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.ChaseBall.MainState.ChaseBallMainState" Collapsed="true">
+    <Position X="107.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABCCAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\ChaseBall\MainState\ChaseBallMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.ChaseBall.SubStates.AutomaticChase" Collapsed="true">
+    <Position X="330" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQQAECAAAAAgAQAAAAAgAgAAAIEAEAAIAAAAAAAIAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\ChaseBall\SubStates\AutomaticChase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.ChaseBall.SubStates.ChooseChaseType" Collapsed="true">
+    <Position X="348" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\ChaseBall\SubStates\ChooseChaseType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.ChaseBall.SubStates.ManualChase" Collapsed="true">
+    <Position X="17.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAEGAAAAAAAQAAAAAgAgAAAIEAAAAIAAAAAAAIAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\ChaseBall\SubStates\ManualChase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.ControlBall.MainState.ControlBallMainState" Collapsed="true">
+    <Position X="48.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAQAAQAAAAAAAAAAAAEAAAAIAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\ControlBall\MainState\ControlBallMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.ControlBall.SubStates.AutomaticControl" Collapsed="true">
+    <Position X="116.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABICAAAAAAQQAAAAABEAMAAAEAAAAYAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\ControlBall\SubStates\AutomaticControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.ControlBall.SubStates.ChooseControlType" Collapsed="true">
+    <Position X="134.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\ControlBall\SubStates\ChooseControlType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.ControlBall.SubStates.ManualControl" Collapsed="true">
+    <Position X="154.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAAAAAAAAAEAAAAIAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\ControlBall\SubStates\ManualControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.DefendCornerKick.MainState.DefendCornerKickMainState" Collapsed="true">
+    <Position X="64.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAkAQAAIAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\DefendCornerKick\MainState\DefendCornerKickMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.DefendCornerKick.SubStates.FindCornerKickThreat" Collapsed="true">
+    <Position X="183.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\DefendCornerKick\SubStates\FindCornerKickThreat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.DefendCornerKick.SubStates.FindRandomPointToDefendCornerKick" Collapsed="true">
+    <Position X="199.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAADAAAAAAQAAAAAAAAAAQAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\DefendCornerKick\SubStates\FindRandomPointToDefendCornerKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.DefendCornerKick.SubStates.PickOutCornerKickThreat" Collapsed="true">
+    <Position X="217.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABACAAQAQAAQAAQAAAAAAQAAEAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\DefendCornerKick\SubStates\PickOutCornerKickThreat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.DefendCornerKick.SubStates.SteerToDefendCornerKickPoint" Collapsed="true">
+    <Position X="235.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAAACAAQAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\DefendCornerKick\SubStates\SteerToDefendCornerKickPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.DefendCornerKick.SubStates.WaitAtCornerKickThreatTarget" Collapsed="true">
+    <Position X="255.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABACAAQAAAAAAAQAAAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\DefendCornerKick\SubStates\WaitAtCornerKickThreatTarget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.DefendCornerKick.SubStates.WaitAtDefendCornerKickPoint" Collapsed="true">
+    <Position X="269.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAACAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\DefendCornerKick\SubStates\WaitAtDefendCornerKickPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.GoToHome.MainState.GoToHomeMainState" Collapsed="true">
+    <Position X="98.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgCAAAABAQAAgAAAAAAAAQAkAAAAIAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\GoToHome\MainState\GoToHomeMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.GoToHome.SubStates.SteerToHome" Collapsed="true">
+    <Position X="294" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABACAAAAAAAQAAAAAAAgAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\GoToHome\SubStates\SteerToHome.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.GoToHome.SubStates.WaitAtHome" Collapsed="true">
+    <Position X="312" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABACIAAAAAAQAAAAAAAAAAAAEBAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\GoToHome\SubStates\WaitAtHome.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.Init.MainState.InitMainState" Collapsed="true">
+    <Position X="332.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAIAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\Init\MainState\InitMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.KickBall.MainState.KickBallMainState" Collapsed="true">
+    <Position X="111.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\KickBall\MainState\KickBallMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.KickBall.SubStates.CheckKickType" Collapsed="true">
+    <Position X="19.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\KickBall\SubStates\CheckKickType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.KickBall.SubStates.PassBall" Collapsed="true">
+    <Position X="35.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAQAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\KickBall\SubStates\PassBall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.KickBall.SubStates.RecoverFromKick" Collapsed="true">
+    <Position X="118.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAQAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\KickBall\SubStates\RecoverFromKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.KickBall.SubStates.RotateToFaceTarget" Collapsed="true">
+    <Position X="136.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAQAAQAAAAQAAAAAAAEAAAAIBAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\KickBall\SubStates\RotateToFaceTarget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.KickBall.SubStates.ShootBall" Collapsed="true">
+    <Position X="156.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAQAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\KickBall\SubStates\ShootBall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.PickOutThreat.MainState.PickOutThreatMainState" Collapsed="true">
+    <Position X="66.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACABECgAQAAIAQAAQACAAAAAEAkAAABJAAACQAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\PickOutThreat\MainState\PickOutThreatMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.PickOutThreat.SubStates.SteerToThreat" Collapsed="true">
+    <Position X="186" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAABACAAAAAAAQAAQAEAAgIAAAEIAIAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\PickOutThreat\SubStates\SteerToThreat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.PickOutThreat.SubStates.WaitAtThreatPosition" Collapsed="true">
+    <Position X="201.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAABACAAAAAAAQAAAAAAAgAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\PickOutThreat\SubStates\WaitAtThreatPosition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.ReceiveBall.MainState.ReceiveBallMainState" Collapsed="true">
+    <Position X="80.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAJACACAAAAAQAAAAAAAAAAAAEAAAAIAAAAAAAGAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\ReceiveBall\MainState\ReceiveBallMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.ReceiveBall.SubStates.SteerToReceiveTarget" Collapsed="true">
+    <Position X="237.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQQAJECAAAAAAAQAAAAAgAiIAAIEQAAAJAAAAAAAIAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\ReceiveBall\SubStates\SteerToReceiveTarget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.ReceiveBall.SubStates.WaitForBallAtReceiveTarget" Collapsed="true">
+    <Position X="258" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAAAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\ReceiveBall\SubStates\WaitForBallAtReceiveTarget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.SupportAttacker.MainState.SupportAttackerMainState" Collapsed="true">
+    <Position X="91.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQRIGQAABAAAQAgAAAAAAICgAkAgAAIAIAAAAQGAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\SupportAttacker\MainState\SupportAttackerMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.SupportAttacker.SubStates.GetSupportSport" Collapsed="true">
+    <Position X="282.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\SupportAttacker\SubStates\GetSupportSport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.SupportAttacker.SubStates.SteerToHome" Collapsed="true">
+    <Position X="296.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABACAAAAAAAQAAAAAAAgAAAAEAAAAIAIAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\SupportAttacker\SubStates\SteerToHome.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.SupportAttacker.SubStates.SteerToSupportSpot" Collapsed="true">
+    <Position X="314.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAABICAAABAAAQAAAAAAAAIAAAEAAAAIAIAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\SupportAttacker\SubStates\SteerToSupportSpot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.SupportAttacker.SubStates.WaitAtSupportSpot" Collapsed="true">
+    <Position X="334.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAICAAAAAAAQAAAAAAAAIAAAEAAAAIAIAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\SupportAttacker\SubStates\WaitAtSupportSpot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.SupportAttacker.SubStates.WaitAtHomePosition" Collapsed="true">
+    <Position X="350.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABACAAAAAAAQAAAAQAAAAAAAEAAAAIAIAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\SupportAttacker\SubStates\WaitAtHomePosition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.SupportCornerKick.MainState.SupportCornerKickMainState" Collapsed="true">
+    <Position X="46.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAgAAAAAAAAAAEAQAAIAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\SupportCornerKick\MainState\SupportCornerKickMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.SupportCornerKick.SubStates.FindRandomPointToAttackCornerKick" Collapsed="true">
+    <Position X="37.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAQAAAAAAAAAAQAAEAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\SupportCornerKick\SubStates\FindRandomPointToAttackCornerKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.SupportCornerKick.SubStates.SteerToAttackCornerKickPoint" Collapsed="true">
+    <Position X="120.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAAACAAQAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\SupportCornerKick\SubStates\SteerToAttackCornerKickPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.SupportCornerKick.SubStates.WaitAtAttackCornerKickPoint" Collapsed="true">
+    <Position X="138.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAACAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\SupportCornerKick\SubStates\WaitAtAttackCornerKickPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.Tackled.MainState.TackledMainState" Collapsed="true">
+    <Position X="159" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAUQQAAAACAAAAAAAEAAAAIAAEAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\Tackled\MainState\TackledMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.TacklePlayer.MainState.TackleMainState" Collapsed="true">
+    <Position X="170.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAICAAAAAEQQAAAACABAAQIAEAAAAIAAAAAAAACA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\TacklePlayer\MainState\TackleMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.TakeCornerKick.MainState.TakeCornerKickMainState" Collapsed="true">
+    <Position X="71.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\TakeCornerKick\MainState\TakeCornerKickMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.TakeCornerKick.SubStates.AutomaticTakeCornerKick" Collapsed="true">
+    <Position X="204" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAATAAAAAAAEAAAAIAAAAAAABAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\TakeCornerKick\SubStates\AutomaticTakeCornerKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.TakeCornerKick.SubStates.ManualTakeCornerKick" Collapsed="true">
+    <Position X="219.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\TakeCornerKick\SubStates\ManualTakeCornerKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.TakeCornerKick.SubStates.PrepareToTakeCornerKick" Collapsed="true">
+    <Position X="240" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\TakeCornerKick\SubStates\PrepareToTakeCornerKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.TakeCornerKick.SubStates.RecoverFromKick" Collapsed="true">
+    <Position X="118.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\TakeCornerKick\SubStates\RecoverFromKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.TakeKickOff.MainState.TakeKickOffMainState" Collapsed="true">
+    <Position X="271.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\TakeKickOff\MainState\TakeKickOffMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.TakeThrowIn.MainState.TakeThrowInMainState" Collapsed="true">
+    <Position X="100.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAIAAAAAAAAAAAAAAEAAAAIAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\TakeThrowIn\MainState\TakeThrowInMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.TakeThrowIn.SubStates.AutomaticTakeThrow" Collapsed="true">
+    <Position X="298.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABACAAAAAAAQAAAEQAAAAAAAEAAAAIAQAAQAIAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\TakeThrowIn\SubStates\AutomaticTakeThrow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.TakeThrowIn.SubStates.ManualTakeThrow" Collapsed="true">
+    <Position X="316.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABACAAAAAAAQAAAASAAAAAAAEAAAAIAQAAQAIAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\TakeThrowIn\SubStates\ManualTakeThrow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.TakeThrowIn.SubStates.PrepareToTakeThrowIn" Collapsed="true">
+    <Position X="336.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAQAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\TakeThrowIn\SubStates\PrepareToTakeThrowIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.PlayerStates.InFieldPlayerStates.Wait.MainState.WaitMainState" Collapsed="true">
+    <Position X="352.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAABAAAAIAgAAAAAAAACAEAQAQIAAACAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\PlayerStates\InFieldPlayerStates\Wait\MainState\WaitMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.TeamStates.Attack.MainState.AttackMainState" Collapsed="true">
+    <Position X="21.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAABgCAABAAAAQAAAACAAABAACEAAAAIAAAgAACAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\TeamStates\Attack\MainState\AttackMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.CornerKick.MainState.CornerKickMainState" Collapsed="true">
+    <Position X="51" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\TeamStates\CornerKick\MainState\CornerKickMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.CornerKick.SubStates.DefendCornerKick" Collapsed="true">
+    <Position X="123" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACCAAAAAAQQAABACAAAIAAAEAAAAIAAAQAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\TeamStates\CornerKick\SubStates\DefendCornerKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.CornerKick.SubStates.PrepareForCornerKick" Collapsed="true">
+    <Position X="141" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCEAAACAAAAQAQQABAEKAAAAACgEAQAAAAAAACAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\TeamStates\CornerKick\SubStates\PrepareForCornerKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.CornerKick.SubStates.TakeCornerKick" Collapsed="true">
+    <Position X="161.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACgAAAAAAQAAAAQAAAAAAAEgAAAIQAAAAABAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\TeamStates\CornerKick\SubStates\TakeCornerKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.CounterKick.MainState.CounterKickMainState" Collapsed="true">
+    <Position X="69" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAIAAAAgAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\TeamStates\CounterKick\MainState\CounterKickMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.CounterKick.SubStates.AttackCounterKick" Collapsed="true">
+    <Position X="188.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAICAAAAAAAQAAAACAAAAAAAEAIAAIAAAAAAAEAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\TeamStates\CounterKick\SubStates\AttackCounterKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.CounterKick.SubStates.DefendCounterKick" Collapsed="true">
+    <Position X="206.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAICAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAEAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\TeamStates\CounterKick\SubStates\DefendCounterKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.CounterKick.SubStates.PrepareForCounterKick" Collapsed="true">
+    <Position X="222" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\TeamStates\CounterKick\SubStates\PrepareForCounterKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.TeamStates.Defend.MainState.DefendMainState" Collapsed="true">
+    <Position X="242.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAABgCBABIAAAQAAAACAAABAAAEAABAIAAAAAQAQAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\TeamStates\Defend\MainState\DefendMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.GoalKick.MainState.GoalKickMainState" Collapsed="true">
+    <Position X="87" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\TeamStates\GoalKick\MainState\GoalKickMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.GoalKick.SubStates.DefendGoalKick" Collapsed="true">
+    <Position X="273.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAIAAACAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\TeamStates\GoalKick\SubStates\DefendGoalKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.GoalKick.SubStates.PrepareForGoalKick" Collapsed="true">
+    <Position X="285" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAIAACAAAAAAAECAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\TeamStates\GoalKick\SubStates\PrepareForGoalKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.GoalKick.SubStates.TakeGoalKick" Collapsed="true">
+    <Position X="300.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAQAAAAAAAEAAAAIAAAAhAAAEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\TeamStates\GoalKick\SubStates\TakeGoalKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.TeamStates.Init.MainState.InitMainState" Collapsed="true">
+    <Position X="318.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAhACAAACEAgAAYAEAAAAABABEkAgBYAACQKAAAAg=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\TeamStates\Init\MainState\InitMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.TeamStates.KickOff.MainState.KickOffMainState" Collapsed="true">
+    <Position X="109.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\TeamStates\KickOff\MainState\KickOffMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.TeamStates.KickOff.SubStates.PrepareForKickOff" Collapsed="true">
+    <Position X="354.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAACAAAAAAAAAAIAAAEAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\TeamStates\KickOff\SubStates\PrepareForKickOff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.TeamStates.KickOff.SubStates.TakeKickOff" Collapsed="true">
+    <Position X="24" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAARAAAAQAAAAAAAEAAAAIAAgAgAAAEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\TeamStates\KickOff\SubStates\TakeKickOff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.TeamStates.KickOff.SubStates.WaitForKickOff" Collapsed="true">
+    <Position X="39.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAIAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\TeamStates\KickOff\SubStates\WaitForKickOff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.ThrowIn.MainState.ThrowInMainState" Collapsed="true">
+    <Position X="57.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\TeamStates\ThrowIn\MainState\ThrowInMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.ThrowIn.SubStates.DefendThrowIn" Collapsed="true">
+    <Position X="143.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAIQAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\TeamStates\ThrowIn\SubStates\DefendThrowIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.ThrowIn.SubStates.PrepareForThrowIn" Collapsed="true">
+    <Position X="163.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAQAAQAAAECAQAAASAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\TeamStates\ThrowIn\SubStates\PrepareForThrowIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Entities.Team.ThrowIn.SubStates.TakeThrowIn" Collapsed="true">
+    <Position X="172.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAACCAAAAAIEAAAAICAAAgAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\TeamStates\ThrowIn\SubStates\TakeThrowIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Entities.TeamStates.Wait.MainState.WaitMainState" Collapsed="true">
+    <Position X="190.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAgCAAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Entities\TeamStates\Wait\MainState\WaitMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.ExitState.MainState.ExitMainState" Collapsed="true">
+    <Position X="208.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAQAEAAEAAAACAAAEAAAAIAACAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\ExitState\MainState\ExitMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.GameOnState.MainState.GameOnMainState" Collapsed="true">
+    <Position X="82.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\GameOnState\MainState\GameOnMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.GameOnState.SubStates.HalfTime.MainState.HalfTimeState" Collapsed="true">
+    <Position X="84.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\GameOnState\SubStates\HalfTime\MainState\HalfTimeState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.GameOnState.SubStates.HalfTime.SubStates.HalfTimeTeamManagementState" Collapsed="true">
+    <Position X="260.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAQKICGAIAAAAAAAAAAAAAQAEAACAIAAgAAABCEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\GameOnState\SubStates\HalfTime\SubStates\HalfTimeTeamManagementState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.GameOnState.SubStates.HalfTime.SubStates.ShowHalfTimeMenuState" Collapsed="true">
+    <Position X="276" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAEAAAAAAgEAAAAMAAAIAAAAAQ=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\GameOnState\SubStates\HalfTime\SubStates\ShowHalfTimeMenuState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.GameOnState.SubStates.Init.MainState.InitMainState" Collapsed="true">
+    <Position X="102.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\GameOnState\SubStates\Init\MainState\InitMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.GameOnState.SubStates.Init.SubStates.InitializeSceneWithData" Collapsed="true">
+    <Position X="303" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAACAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\GameOnState\SubStates\Init\SubStates\InitializeSceneWithData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.GameOnState.SubStates.Init.SubStates.LoadGameOnScene" Collapsed="true">
+    <Position X="321" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAQAAAAQAAAAAAAEAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\GameOnState\SubStates\Init\SubStates\LoadGameOnScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.GameOnState.SubStates.Init.SubStates.WaitForContinueToMatchOnInstruction" Collapsed="true">
+    <Position X="339" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAAAAAAAAAEEAAAIAAAAAAAABA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\GameOnState\SubStates\Init\SubStates\WaitForContinueToMatchOnInstruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.GameOnState.SubStates.Init.SubStates.WaitForSceneToInitialize" Collapsed="true">
+    <Position X="357" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\GameOnState\SubStates\Init\SubStates\WaitForSceneToInitialize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.GameOnState.SubStates.MatchInPlayState.MainState.MatchInPlayMainState" Collapsed="true">
+    <Position X="26.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAIBAgAAAAAYAAAAEIAAgAAAIEAAQgIACgAEAgIQA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\GameOnState\SubStates\MatchInPlayState\MainState\MatchInPlayMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.GameOnState.SubStates.MatchPausedState" Collapsed="true">
+    <Position X="53.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\GameOnState\SubStates\MatchPaused\MainState\MatchPausedState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.GameOnState.SubStates.MatchTeamManagement" Collapsed="true">
+    <Position X="125.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAQKICGAIAAAAAAAAAAAAAQAEAACAIAAgAAABCEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\GameOnState\SubStates\MatchPaused\SubStates\MatchTeamManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.GameOnState.SubStates.MatchPaused.SubStates.MatchPausedInfoState" Collapsed="true">
+    <Position X="145.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAEAAAAMAAAIQAAEAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\GameOnState\SubStates\MatchPaused\SubStates\MatchPausedInfoState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.GameOnState.SubStates.MatchPaused.SubStates.WaitForMatchToPauseState" Collapsed="true">
+    <Position X="165.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\GameOnState\SubStates\MatchPaused\SubStates\WaitForMatchToPauseState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.HomeState.MainState.HomeMainState" Collapsed="true">
+    <Position X="174.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACBAAAAAQAAAAEAAAAAAAAECAAAIAACAgAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\HomeState\MainState\HomeMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.Init.MainState.InitMainState" Collapsed="true">
+    <Position X="73.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAgAAAAAAAAAAEAAAAoQAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\Init\MainState\InitMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.Init.SubStates.InitializeDataDependentEntities" Collapsed="true">
+    <Position X="210.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAAAAAAAAAEAIAAAAAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\Init\SubStates\InitializeDataDependentEntities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.Init.SubStates.LoadDataFromSource" Collapsed="true">
+    <Position X="224.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAAAIAAAAABAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\Init\SubStates\LoadDataFromSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.Init.SubStates.WaitForContinueInstruction" Collapsed="true">
+    <Position X="244.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\Init\SubStates\WaitForContinueInstruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.PrepareForMatchState.MainState.PrepareForMatchMainState" Collapsed="true">
+    <Position X="89.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\PrepareForMatchState\MainState\PrepareForMatchMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.PrepareForMatchState.SubStates.PreMatch" Collapsed="true">
+    <Position X="93.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAQAAAAAQAAAAAAAEAAAAIAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\PrepareForMatchState\SubStates\PreMatchState\PreMatch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.PrepareForMatchState.SubStates.SelectTeams" Collapsed="true">
+    <Position X="287.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAACAAEAAAQAAAAAAIAAAAAAEEAAAIAACAEAEAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\PrepareForMatchState\SubStates\SelectTeams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.PrepareForMatchState.SubStates.SelectTeamsKits" Collapsed="true">
+    <Position X="305.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgACACAAEAAAQAAAAAAAAAAAAAMAAACIAACAAAAgAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\PrepareForMatchState\SubStates\SelectTeamsKits.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.PrepareForMatchState.SubStates.PreMatchState.SubStates.PreMatchMatchInfo" Collapsed="true">
+    <Position X="323.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiAAEAAAQAAAAAAAAAAAAAEAAAAIAACAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\PrepareForMatchState\SubStates\PreMatchState\SubStates\PreMatchMatchInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.PrepareForMatchState.SubStates.PreMatchState.SubStates.PreMatchMatchSettings" Collapsed="true">
+    <Position X="341.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAACAAEAAEQAIQQAAAAAABAYEAEAAIQACAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\PrepareForMatchState\SubStates\PreMatchState\SubStates\PreMatchMatchSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.PrepareForMatchState.SubStates.PreMatchState.SubStates.PreMatchTeamManagement" Collapsed="true">
+    <Position X="359.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQKICGAIAAAAAAAAAAAAAQAEAACAIAAgAAABCEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\PrepareForMatchState\SubStates\PreMatchState\SubStates\PreMatchTeamManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.GameManagerStates.SettingsState.MainState.SettingsMainState" Collapsed="true">
+    <Position X="28.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAABACAAEAAEQAMQQAAAIAABAYEAEAAIQACAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\GameManagerStates\SettingsState\MainState\SettingsMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.Init.MainState.InitMainState" Collapsed="true">
+    <Position X="55.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\Init\MainState\InitMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.Init.SubStates.Initialize" Collapsed="true">
+    <Position X="127.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAQAAAAAAAAkAAAAIAAAAAAABAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\Init\SubStates\Initialize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.Init.SubStates.WaitForMatchOnInstruction" Collapsed="true">
+    <Position X="147.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAACAAAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\Init\SubStates\WaitForMatchOnInstruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.MatchOn.MainState.MatchOnMainState" Collapsed="true">
+    <Position X="60" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\MatchOn\MainState\MatchOnMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.MatchOn.SubStates.BroadcastHalfStatus" Collapsed="true">
+    <Position X="177" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAQAAAAAAAEgAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\MatchOn\SubStates\BroadcastHalfStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.MatchOn.SubStates.BroadcastMatchStatus" Collapsed="true">
+    <Position X="192.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAADAAAAAAAQAAAAQAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\MatchOn\SubStates\BroadcastMatchStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.MatchOn.SubStates.ExhaustHalf" Collapsed="true">
+    <Position X="213" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAECAAAAAgAAAAAEAAEAAIAAEAAAAIAACAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\MatchOn\SubStates\ExhaustHalf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.MatchOn.SubStates.SwitchSides" Collapsed="true">
+    <Position X="226.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAIAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\MatchOn\SubStates\MatchStopped\SubStates\SwitchSides.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.MatchOn.SubStates.WaitForKickOffToComplete" Collapsed="true">
+    <Position X="246.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAQAAAAAAAEAAAAIEAAAQAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\MatchOn\SubStates\WaitForKickOffToComplete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.MatchOn.SubStates.WaitForThrowInToComplete" Collapsed="true">
+    <Position X="262.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAKAAAAAAAQAAAAQAAAAAAAEAAAAIAAAAAgAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\MatchOn\SubStates\WaitForThrowInToComplete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.MatchManagerMainState.MatchPaused.MainState.MatchPausedMainState" Collapsed="true">
+    <Position X="278.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAADAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\MatchOn\SubStates\MatchPausedMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.MatchStopped.MainState.MatchStoppedMainState" Collapsed="true">
+    <Position X="105" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\MatchOn\SubStates\MatchStopped\MainState\MatchStoppedMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.MatchManagerMainState.MatchOn.SubStates.MatchStopped.SubStates.BroadcastCornerKick" Collapsed="true">
+    <Position X="307.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAQAAgAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\MatchOn\SubStates\MatchStopped\SubStates\BroadcastCornerKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.MatchManagerMainState.MatchOn.SubStates.MatchStopped.SubStates.BroadcastGoalKick" Collapsed="true">
+    <Position X="325.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACCAAAAAAQAAAAQAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\MatchOn\SubStates\MatchStopped\SubStates\BroadcastGoalKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.MatchManagerMainState.MatchOn.SubStates.MatchStopped.SubStates.BroadcastNormalTimeIsOver" Collapsed="true">
+    <Position X="343.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAQAAAAAAAEAAAEIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\MatchOn\SubStates\MatchStopped\SubStates\BroadcastNormalTimeIsOver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.MatchManagerMainState.MatchOn.SubStates.MatchStopped.SubStates.NormalTimeOver" Collapsed="true">
+    <Position X="361.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAIAAAAEAAAAIAAAAAAAAQA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\MatchOn\SubStates\MatchStopped\SubStates\NormalTimeOver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.MatchOn.SubStates.MatchStopped.SubStates.BroadcastGoalScored" Collapsed="true">
+    <Position X="30.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAQAAAAAAAEQAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\MatchOn\SubStates\MatchStopped\SubStates\BroadcastGoalScored.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.MatchOn.SubStates.MatchStopped.SubStates.BroadcastHalfTimeStatus" Collapsed="true">
+    <Position X="42" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAQAQAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\MatchOn\SubStates\MatchStopped\SubStates\BroadcastHalfTimeStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.MatchOn.SubStates.MatchStopped.SubStates.BroadcastThrowIn" Collapsed="true">
+    <Position X="129.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAEQAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\MatchOn\SubStates\MatchStopped\SubStates\BroadcastThrowIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.MatchOn.SubStates.MatchStopped.SubStates.HalfTime" Collapsed="true">
+    <Position X="150" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAQAAAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\MatchOn\SubStates\MatchStopped\SubStates\HalfTime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.MatchStopped.SubStates.CheckNextMatchStatus" Collapsed="true">
+    <Position X="168" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAIAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\MatchOn\SubStates\MatchStopped\SubStates\CheckNextMatchStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.MatchStopped.SubStates.TriggerMatchOver" Collapsed="true">
+    <Position X="179.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\MatchOn\SubStates\MatchStopped\SubStates\TriggerMatchOver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.MatchManagerMainState.MatchOn.SubStates.WaitForCornerKickToComplete" Collapsed="true">
+    <Position X="195" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAgAQAAIAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\MatchOn\SubStates\WaitForCornerKickToComplete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.MatchManagerMainState.MatchOn.SubStates.WaitForGoalKickToComplete" Collapsed="true">
+    <Position X="215.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAQAAAAAAAEAAAAIAAIAAAIAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\MatchOn\SubStates\WaitForGoalKickToComplete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.States.Managers.MatchManagerMainStates.MatchOver.MainState.MatchOverMainState" Collapsed="true">
+    <Position X="228.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAIAQAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\MatchOver\MainState\MatchOverMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.States.Managers.MatchManagerMainState.WaitState.MainState.WaitMainState" Collapsed="true">
+    <Position X="249" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAgAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\States\Managers\MatchManagerMainStates\WaitState\MainState\WaitMainState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Tests.GoalkeeperTests.GoalKeeperCounterKickTest" Collapsed="true">
+    <Position X="374.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgCAAAAAAAAEAAAAAACAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Tests\GoalkeeperTests\GoalKeeperCounterKickTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Tests.GoalkeeperTests.GoalKeeperFullTest" Collapsed="true">
+    <Position X="376.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAAAAAAAAAAAEAAgAAACAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Tests\GoalkeeperTests\GoalKeeperFullTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Tests.GoalkeeperTests.GoalKeeperGoalKickTest" Collapsed="true">
+    <Position X="364" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAEAAAAAACAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Tests\GoalkeeperTests\GoalKeeperGoalKickTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Tests.GoalkeeperTests.GoalKeeperHandsIKTests" Collapsed="true">
+    <Position X="365.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Tests\GoalkeeperTests\GoalKeeperHandsIKTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Tests.InFieldPlayerTests.PlayerChaseBallTester" Collapsed="true">
+    <Position X="364" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAQABAAAAAAAAAAAAAAAAAAAAACAAQAAEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Tests\InFieldPlayerTests\PlayerChaseBallTester.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Tests.InFieldPlayerTests.PlayerControlBallTester" Collapsed="true">
+    <Position X="365.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAKACAAABAAABIgAAAAAIAAAAAAEAACIAQAAEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Tests\InFieldPlayerTests\PlayerControlBallTester.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Tests.InFieldPlayerTests.PlayerPassBallBasic" Collapsed="true">
+    <Position X="374.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAABAAAAAAAAAACIAAIAAAAAAAAAQAAEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Tests\InFieldPlayerTests\PlayerPassBallBasic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Tests.InFieldPlayerTests.PlayerPickOutThreatTest" Collapsed="true">
+    <Position X="376.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAAAAAAAAAAAAAAAAAAACAAQAAEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Tests\InFieldPlayerTests\PlayerPickOutThreatTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Tests.InFieldPlayerTests.PlayerReceiveBallTest" Collapsed="true">
+    <Position X="364" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAgAAAAAAAAAFAAAAAAAAAAAAAAAAAAAACKAACAEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Tests\InFieldPlayerTests\PlayerReceiveBallTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Tests.InFieldPlayerTests.PlayerReturnToHomeTest" Collapsed="true">
+    <Position X="365.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAACCAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Tests\InFieldPlayerTests\PlayerReturnToHomeTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Tests.InFieldPlayerTests.PlayerShootBallTester" Collapsed="true">
+    <Position X="367.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAKAAAAAAABIAAAAAAAAAAIAAAAACAAQAAEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Tests\InFieldPlayerTests\PlayerShootBallTester.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Tests.InFieldPlayerTests.PlayerSupportAttackerTester" Collapsed="true">
+    <Position X="369.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQCAAAAACAAABAAAAAAAAAAAAAAAAAAAAACAQAAAEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Tests\InFieldPlayerTests\PlayerSupportAttackerTester.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Tests.InFieldPlayerTests.TakeKickOffTest" Collapsed="true">
+    <Position X="372.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAQAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAgEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Tests\InFieldPlayerTests\TakeKickOffTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Tests.TeamTests.AttackDefendFormationTest" Collapsed="true">
+    <Position X="365.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAgAAAAACAAAAAAREA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Tests\TeamTests\AttackDefendFormationTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Triggers.BTrigger" Collapsed="true">
+    <Position X="2.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Triggers\BTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Triggers.CornerGoalKickTrigger" Collapsed="true">
+    <Position X="0.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Triggers\CornerGoalKickTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Triggers.ThrowInTrigger" Collapsed="true">
+    <Position X="2.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Triggers\ThrowInTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Triggers.GoalTrigger" Collapsed="true">
+    <Position X="5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Triggers\GoalTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Items.FormationItems.FormationItem001" Collapsed="true">
+    <Position X="367.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAACAAAAgAAAAAACACAAAIAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Items\FormationItems\FormationItem001.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Items.PlayerItems.PlayerItem001" Collapsed="true">
+    <Position X="369.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAEAAAAAQAAAAAAAAAAAADAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Items\PlayerItems\PlayerItem001.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Items.PlayerItems.PlayerItem002" Collapsed="true">
+    <Position X="371" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACIAAAAAAAAAAAEABAAAQAAIgAAAAAACAHAAAAAAE=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Items\PlayerItems\PlayerItem002.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.Background.MainMenu.BackgroundMainMenu" Collapsed="true">
+    <Position X="10" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\Background\MainMenu\BackgroundMainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.ExitMenu.MainMenu.ExitMainMenu" Collapsed="true">
+    <Position X="12.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\ExitMenu\MainMenu\ExitMainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.GameOnMenu.MainMenu.GameOnMainMenu" Collapsed="true">
+    <Position X="14.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAgAAABAAAAAAAAAEABAAAAAABgAAAAgAAAAgAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\GameOnMenu\MainMenu\GameOnMainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.GameOnMenu.SubMenus.HalfTimeMenu.MainMenu.HalfTimeMainMenu" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAEAAAAAEIAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\GameOnMenu\SubMenus\HalfTimeMenu\MainMenu\HalfTimeMainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.GameOnMenu.SubMenus.MatchInPlayMenu.SubMenus.HalfTimeInfoMenu" Collapsed="true">
+    <Position X="6.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAQAAAAAAABAAgAAAAAAAAAAAAAAAAJAAAgAEAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\GameOnMenu\SubMenus\HalfTimeMenu\SubMenus\HalfTimeInfoMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.GameOnMenu.SubMenus.MatchInPlayMenu.SubMenus.InfoMenu" Collapsed="true">
+    <Position X="11.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\GameOnMenu\SubMenus\MatchInPlayMenu\SubMenus\InfoMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.GameOnMenu.SubMenus.MatchInPlayMenu.SubMenus.MatchOverMenu" Collapsed="true">
+    <Position X="15.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAQACAAAAAAAAAAAIAAAAgAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\GameOnMenu\SubMenus\MatchInPlayMenu\SubMenus\MatchOverMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.GameOnMenu.SubMenus.MatchInPlayMenu.SubMenus.MatchPausedMenu" Collapsed="true">
+    <Position X="18" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAEAAQAAAAAAAIAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\GameOnMenu\SubMenus\MatchInPlayMenu\SubMenus\MatchPaused\MainMenu\MatchPausedMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.GameOnMenu.SubMenus.MatchInPlayMenu.SubMenus.MatchPlayMenu" Collapsed="true">
+    <Position X="22.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAQAAAAAAAAAAAABAAAIAABAACAAAAAQA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\GameOnMenu\SubMenus\MatchInPlayMenu\SubMenus\MatchPlayMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.GameOnMenu.SubMenus.MatchInPlayMenu.SubMenus.NormalTimeOverMenu" Collapsed="true">
+    <Position X="24.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAARACABIAAACAAAAAABAAAgAAAJAAAAgAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\GameOnMenu\SubMenus\MatchInPlayMenu\SubMenus\NormalTimeOverMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.GameOnMenu.SubMenus.InitMenu" Collapsed="true">
+    <Position X="29.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAEAAABAAAAAAAgAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\GameOnMenu\SubMenus\Init\MainMenu\InitMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.GameOnMenu.SubMenus.Init.SubMenus.LoadMenu" Collapsed="true">
+    <Position X="31.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\GameOnMenu\SubMenus\Init\SubMenus\LoadMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.GameOnMenu.SubMenus.Init.SubMenus.WaitForContinueToMatchOnInstructionMenu" Collapsed="true">
+    <Position X="33.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\GameOnMenu\SubMenus\Init\SubMenus\WaitForContinueToMatchOnInstructionMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.GameOnMenu.SubMenus.MatchInPlayMenu.MainMenu.MatchInPlayMainMenu" Collapsed="true">
+    <Position X="36" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEASABAAAQAAEAAAAAAAAAACAAAAAAAAAABA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\GameOnMenu\SubMenus\MatchInPlayMenu\MainMenu\MatchInPlayMainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.GameOnMenu.SubMenus.MatchInPlayMenu.SubMenus.MatchPaused.SubMenus.MatchPausedInfoMenu" Collapsed="true">
+    <Position X="38.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAQAAAQACABAAgAAAAAAAAAAAAAABAJAAAAAEAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\GameOnMenu\SubMenus\MatchInPlayMenu\SubMenus\MatchPaused\SubMenus\MatchPausedInfoMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.HomeMenu.MainMenu.HomeMainMenu" Collapsed="true">
+    <Position X="5.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAEACAAAAAAAAAAAACACAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\HomeMenu\MainMenu\HomeMainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.Init.MainMenu.InitMainMenu" Collapsed="true">
+    <Position X="7.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAAgIAAAAAAAAAAAQAAAAAAAAQAAAAAgAAAQAEAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\Init\MainMenu\InitMainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.Init.SubMenus.LoadMenu" Collapsed="true">
+    <Position X="40.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\Init\SubMenus\LoadMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.Init.SubMenus.WaitForContinueInstructionMenu" Collapsed="true">
+    <Position X="42.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\Init\SubMenus\WaitForContinueInstructionMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.PrepareForMatchMenu.MainMenu.PrepareForMatchMainMenu" Collapsed="true">
+    <Position X="16.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIAAIACAAAAAAAAAAAAAAAAAgCAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\PrepareForMatchMenu\MainMenu\PrepareForMatchMainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.PrepareForMatchMenu.SubMenus.PreMatchSubMenu" Collapsed="true">
+    <Position X="4.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAEAAABAAAAAAAAiAAAAYAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\PrepareForMatchMenu\SubMenus\PreMatchSubMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.PrepareForMatchMenu.SubMenus.SelectTeamsSubMenu" Collapsed="true">
+    <Position X="9" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgCAAAAAgAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\PrepareForMatchMenu\SubMenus\SelectTeamsSubMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.PrepareForMatchMenu.SubMenus.PreMatchSubMenus.PreMatchMatchInfoSubMenu" Collapsed="true">
+    <Position X="13.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAgAEAAAAAAAQAAIAAAAQACIAEAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\PrepareForMatchMenu\SubMenus\PreMatchSubMenus\PreMatchMatchInfoSubMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.PrepareForMatchMenu.SubMenus.PreMatchSubMenus.TeamInfo" Collapsed="true">
+    <Position X="364" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAIAAAAAAAAAAAACAAAACAAAACAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\PrepareForMatchMenu\SubMenus\PreMatchSubMenus\PreMatchMatchInfoSubMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.PrepareForMatchMenu.SubMenus.PreMatchSubMenus.PreMatchMatchSettingsSubMenu" Collapsed="true">
+    <Position X="20.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAgAAACAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\PrepareForMatchMenu\SubMenus\PreMatchSubMenus\PreMatchMatchSettingsSubMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.PrepareForMatchMenu.SubMenus.PreMatchSubMenus.SettingsInfo" Collapsed="true">
+    <Position X="376.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAEAAAAAAQAAAAAAAACABAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\PrepareForMatchMenu\SubMenus\PreMatchSubMenus\PreMatchMatchSettingsSubMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.PrepareForMatchMenu.SubMenus.PreMatchSubMenus.PreMatchTeamManagementSubMenu" Collapsed="true">
+    <Position X="27" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAIAAAgAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\PrepareForMatchMenu\SubMenus\PreMatchSubMenus\PreMatchTeamManagementSubMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.SettingsMenu.MainMenu.SettingsMainMenu" Collapsed="true">
+    <Position X="1" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAABAMAAAAAABgAAAABxAQAAIAAAAAANAAAoAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\SettingsMenu\MainMenu\SettingsMainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Menus.UtilityMenu.MainMenu.UtilityMainMenu" Collapsed="true">
+    <Position X="3.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAACCAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Menus\UtilityMenu\MainMenu\UtilityMainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Widgets.InfoWidgets.PlayerInfoWidget.PlayerMatchInfoWidget" Collapsed="true">
+    <Position X="372.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAQACAAAAAAAAABAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Widgets\InfoWidgets\PlayerInfoWidget\PlayerMatchInfoWidget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Widgets.TeamWidgets.FormationManagementWidget" Collapsed="true">
+    <Position X="369.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQEAAAAAAAAAAAAQAAAQAAgAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Widgets\TeamWidgets\FormationManagementWidget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Widgets.TeamWidgets.SquadManagementWidget" Collapsed="true">
+    <Position X="365.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAABABABAAACAAAABAACAiAAAQAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Widgets\TeamWidgets\SquadManagementWidget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Widgets.TeamWidgets.TacticsManagementWidget" Collapsed="true">
+    <Position X="371" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Widgets\TeamWidgets\TacticsManagementWidget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Widgets.TeamWidgets.TacticSetting" Collapsed="true">
+    <Position X="369.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAEAAAAAAAAEAAAAAAAAAAAAQAgAAAAAAAAgA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Widgets\TeamWidgets\TacticsManagementWidget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.UI.Widgets.TeamWidgets.TeamManagementWidget" Collapsed="true">
+    <Position X="365.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IABAEAAEAAAIAClAAIAEAAAAAAAAAAAAAAESAAFABMA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\UI\Widgets\TeamWidgets\TeamManagementWidget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Utilities.ActionUtility" Collapsed="true">
+    <Position X="364" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Utilities\ActionUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Utilities.MathUtilities" Collapsed="true">
+    <Position X="365.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Utilities\MathUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Utilities.Misc.BillBoard" Collapsed="true">
+    <Position X="372.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Utilities\Misc\BillBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie_.Scripts.Utilities.Misc.PersistentGameObject" Collapsed="true">
+    <Position X="371" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Utilities\Misc\PersistentGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.FootballGameEngine_Indie.Scripts.Utilities.Objects.Range" Collapsed="true">
+    <Position X="371" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Utilities\Objects\Range.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Assets.FootballGameEngine_Indie.Scripts.Entities.IKTargets" Collapsed="true">
+    <Position X="365.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAgEgAAAAAAAAAEAAAAEAAAAAAAAQgYAAAAggAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Entities\Ball.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Assets.FootballGameEngine_Indie.Scripts.Entities.GoalMouth" Collapsed="true">
+    <Position X="364" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAACAAAABAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Entities\Goal.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="RobustFSM.Interfaces.IFSM" Collapsed="true">
+    <Position X="8.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEAMAIQABUBCAJEIACBEAAYgAIBACBIAhAAATAE=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Plugins\RobustFSM\Core\Interfaces\IFSM.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RobustFSM.Interfaces.IState" Collapsed="true">
+    <Position X="11.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAEAAAAAUQEAAEAAAAAAABEBAQCIAAAAAEAQAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Plugins\RobustFSM\Core\Interfaces\IState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.RobustFSM.Interfaces.IHState" Collapsed="true">
+    <Position X="8.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Plugins\RobustFSM\Core\Interfaces\IHState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Assets.FootballGameEngine_Indie_.Scripts.Utilities.Enums.AttackTypeEnum" Collapsed="true">
+    <Position X="364" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Utilities\Enums\AttackTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Assets.FootballGameEngine_Indie_.Scripts.Utilities.Enums.DefenceTypeEnum" Collapsed="true">
+    <Position X="365.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAIAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Utilities\Enums\DefenceTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Assets.FootballGameEngine_Indie_.Scripts.Utilities.Enums.FormationTypeEnum" Collapsed="true">
+    <Position X="367.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABACABAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Utilities\Enums\FormationTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Assets.FootballGameEngine_Indie_.Scripts.Utilities.Enums.KickTypes" Collapsed="true">
+    <Position X="374.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Utilities\Enums\KickTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Assets.FootballGameEngine_Indie_.Scripts.Utilities.Enums.MatchDifficultyEnum" Collapsed="true">
+    <Position X="376.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAIAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Utilities\Enums\MatchDifficultyEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Assets.FootballGameEngine_Indie_.Scripts.Utilities.Enums.PassTypes" Collapsed="true">
+    <Position X="365.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Utilities\Enums\PassTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Assets.FootballGameEngine_Indie_.Scripts.Utilities.Enums.PlayerPositionEnum" Collapsed="true">
+    <Position X="367.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAgAEgAAAAQCCQCAEAigACAACAAAAAAAAEAAEAAkAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Utilities\Enums\PlayerPositionEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Assets.FootballGameEngine_Indie_.Scripts.Utilities.Enums.SoundTypeEnum" Collapsed="true">
+    <Position X="371" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Utilities\Enums\SoundTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Assets.FootballGameEngine_Indie.Scripts.Utilities.Enums.GameTimeCombosEnum" Collapsed="true">
+    <Position X="369.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAgAACAAIAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Utilities\Enums\GameTimeCombosEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Assets.FootballGameEngine_Indie.Scripts.Utilities.Enums.GameTimeEnum" Collapsed="true">
+    <Position X="371" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAQAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Utilities\Enums\GameTimeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Assets.FootballGameEngine_Indie.Scripts.Utilities.Enums.KickDecisions" Collapsed="true">
+    <Position X="372.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Utilities\Enums\KickDecisions.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Assets.FootballGameEngine_Indie.Scripts.Utilities.Enums.MatchStatuses" Collapsed="true">
+    <Position X="364" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAEAABAACAAIAAAAAAAABAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Utilities\Enums\MatchStatuses.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Assets.FootballGameEngine_Indie.Scripts.Utilities.Enums.PlayerTypes" Collapsed="true">
+    <Position X="369.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FootballGameEngine(Indie)\Scripts\Utilities\Enums\PlayerTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

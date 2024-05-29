@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8342832195187662094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8342832195187662093}
+  - component: {fileID: 8342832195187662092}
+  - component: {fileID: 8342832195187662091}
+  m_Layer: 0
+  m_Name: MatchManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8342832195187662093
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8342832195187662094}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8342832195187662092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8342832195187662094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c674e39cc4b6b2840be1dda753cbd786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _distancePassMax: 25
+  _distancePassMin: 8
+  _distanceShotValidMax: 30
+  _distanceTendGoal: 3
+  _distanceThreatMax: 3
+  _distanceThreatMin: 5
+  _distanceThreatTrack: 1
+  _distanceWonderMax: 15
+  _velocityPassArrive: 15
+  _velocityShotArrive: 30
+  _diveSpeed: 4
+  _jumpDistance: 1
+  _jumpHeight: 0.5
+  _power: 30
+  _reach: 0.5
+  _speed: 6.5
+  _leftThrowInTrigger: {fileID: 0}
+  _rightThrowInTrigger: {fileID: 0}
+  _teamAway: {fileID: 0}
+  _teamHome: {fileID: 0}
+  _rootTeam: {fileID: 0}
+  _transformCentreSpot: {fileID: 0}
+  _awayTeamData:
+    _formation: 
+    _name: 
+    _shortName: 
+    _icon: {fileID: 0}
+    _attackType: 0
+    _defendType: 0
+    _formationType: 0
+    _kit:
+      _goalKeeperKit: {fileID: 0}
+      _inFieldPlayerKit: {fileID: 0}
+    _players: []
+  _homeTeamData:
+    _formation: 
+    _name: 
+    _shortName: 
+    _icon: {fileID: 0}
+    _attackType: 0
+    _defendType: 0
+    _formationType: 0
+    _kit:
+      _goalKeeperKit: {fileID: 0}
+      _inFieldPlayerKit: {fileID: 0}
+    _players: []
+--- !u!114 &8342832195187662091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8342832195187662094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b1cbbca0864a204abbb403d5dea569a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

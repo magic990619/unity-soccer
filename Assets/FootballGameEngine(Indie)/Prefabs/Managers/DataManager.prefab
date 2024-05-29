@@ -1,0 +1,1132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6270043942751798634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6270043942751798637}
+  - component: {fileID: 6270043942751798636}
+  m_Layer: 0
+  m_Name: DataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6270043942751798637
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6270043942751798634}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6270043942751798636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6270043942751798634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82dd3f4f28a57a248be790448593dfee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _attackTactics:
+  - _name: Fast
+    _forwardRunProbability: 0.91
+    _longBallProbability: 0.8
+    _pushAheadRatio: 1.505
+    _pushForwardFrequency: 0.8
+    _transistIntoAttackSpeed: 0.5
+    _attackType: 0
+  - _name: Normal
+    _forwardRunProbability: 0.5
+    _longBallProbability: 0.8
+    _pushAheadRatio: 1.301
+    _pushForwardFrequency: 0.5
+    _transistIntoAttackSpeed: 0.5
+    _attackType: 1
+  - _name: Slow
+    _forwardRunProbability: 0.27
+    _longBallProbability: 0.5
+    _pushAheadRatio: 1.091
+    _pushForwardFrequency: 0.25
+    _transistIntoAttackSpeed: 0.5
+    _attackType: 2
+  _defendTactics:
+  - _name: Deep
+    _pushBackRatio: 2
+    _tightPressFrequency: 0.5
+    _transistIntoDefendSpeed: 0.75
+    _defendType: 0
+  - _name: Normal
+    _pushBackRatio: 1.703
+    _tightPressFrequency: 0.5
+    _transistIntoDefendSpeed: 0.5
+    _defendType: 2
+  - _name: High
+    _pushBackRatio: 1.514
+    _tightPressFrequency: 0.5
+    _transistIntoDefendSpeed: 0.25
+    _defendType: 1
+  _teams:
+  - _leftSideCornerKickTaker: 5
+    _leftSideThrowInTaker: 0
+    _rightSideCornerKickTaker: 6
+    _rightSideThrowInTake: 4
+    _name: Team001
+    _shortName: T1
+    _icon: {fileID: 21300000, guid: b669b436c5edbda448d445cc82e32a30, type: 3}
+    _attackType: 0
+    _defendType: 0
+    _formationType: 0
+    _kits:
+    - _name: Home Kit
+      _imgIcon: {fileID: 21300000, guid: 63f42824f8a3aff4db6c01addc107a83, type: 3}
+      _goalKeeperKit: {fileID: 2800000, guid: 4353e6afbe75b8a4fa84bcf6def700b8, type: 3}
+      _inFieldPlayerKit: {fileID: 2800000, guid: 7de0290585740f54c8f8ef54594bbe8b,
+        type: 3}
+    - _name: Away Kit
+      _imgIcon: {fileID: 21300000, guid: 80fdbd9ead4edc244ade02a922dd19a6, type: 3}
+      _goalKeeperKit: {fileID: 2800000, guid: 4353e6afbe75b8a4fa84bcf6def700b8, type: 3}
+      _inFieldPlayerKit: {fileID: 2800000, guid: 5df8fcb8da24d224ea629ac2238bf87a,
+        type: 3}
+    _players:
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 1
+      _firstname: 
+      _lastname: 
+      _kitName: AA
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 2
+      _firstname: 
+      _lastname: 
+      _kitName: AB
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 3
+      _firstname: 
+      _lastname: 
+      _kitName: AC
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 4
+      _firstname: 
+      _lastname: 
+      _kitName: AD
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 5
+      _firstname: 
+      _lastname: 
+      _kitName: AE
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 6
+      _firstname: 
+      _lastname: 
+      _kitName: AF
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 7
+      _firstname: 
+      _lastname: 
+      _kitName: AG
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 8
+      _firstname: 
+      _lastname: 
+      _kitName: AH
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 9
+      _firstname: 
+      _lastname: 
+      _kitName: AI
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 10
+      _firstname: 
+      _lastname: 
+      _kitName: AJ
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 11
+      _firstname: 
+      _lastname: 
+      _kitName: AK
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 12
+      _firstname: 
+      _lastname: 
+      _kitName: AL
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 13
+      _firstname: 
+      _lastname: 
+      _kitName: AM
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 14
+      _firstname: 
+      _lastname: 
+      _kitName: AN
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 15
+      _firstname: 
+      _lastname: 
+      _kitName: AO
+      _kitNumber: 
+      _playerPosition: 0
+  - _leftSideCornerKickTaker: 4
+    _leftSideThrowInTaker: 0
+    _rightSideCornerKickTaker: 7
+    _rightSideThrowInTake: 4
+    _name: Team002
+    _shortName: T2
+    _icon: {fileID: 21300000, guid: 0321766d6ac1e474eab0a6290c3cfe98, type: 3}
+    _attackType: 2
+    _defendType: 0
+    _formationType: 1
+    _kits:
+    - _name: Home Kit
+      _imgIcon: {fileID: 21300000, guid: 63f42824f8a3aff4db6c01addc107a83, type: 3}
+      _goalKeeperKit: {fileID: 2800000, guid: 4353e6afbe75b8a4fa84bcf6def700b8, type: 3}
+      _inFieldPlayerKit: {fileID: 2800000, guid: 7de0290585740f54c8f8ef54594bbe8b,
+        type: 3}
+    - _name: Away Kit
+      _imgIcon: {fileID: 21300000, guid: 80fdbd9ead4edc244ade02a922dd19a6, type: 3}
+      _goalKeeperKit: {fileID: 2800000, guid: 4353e6afbe75b8a4fa84bcf6def700b8, type: 3}
+      _inFieldPlayerKit: {fileID: 2800000, guid: 5df8fcb8da24d224ea629ac2238bf87a,
+        type: 3}
+    _players:
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+  - _leftSideCornerKickTaker: 3
+    _leftSideThrowInTaker: 0
+    _rightSideCornerKickTaker: 3
+    _rightSideThrowInTake: 4
+    _name: Team003
+    _shortName: T3
+    _icon: {fileID: 21300000, guid: 88d4bf3615efd2c4aaf7789fcc964de0, type: 3}
+    _attackType: 0
+    _defendType: 1
+    _formationType: 2
+    _kits:
+    - _name: Home Kit
+      _imgIcon: {fileID: 21300000, guid: 63f42824f8a3aff4db6c01addc107a83, type: 3}
+      _goalKeeperKit: {fileID: 2800000, guid: 4353e6afbe75b8a4fa84bcf6def700b8, type: 3}
+      _inFieldPlayerKit: {fileID: 2800000, guid: 7de0290585740f54c8f8ef54594bbe8b,
+        type: 3}
+    - _name: Away Kit
+      _imgIcon: {fileID: 21300000, guid: 80fdbd9ead4edc244ade02a922dd19a6, type: 3}
+      _goalKeeperKit: {fileID: 2800000, guid: 4353e6afbe75b8a4fa84bcf6def700b8, type: 3}
+      _inFieldPlayerKit: {fileID: 2800000, guid: 5df8fcb8da24d224ea629ac2238bf87a,
+        type: 3}
+    _players:
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+  - _leftSideCornerKickTaker: 3
+    _leftSideThrowInTaker: 0
+    _rightSideCornerKickTaker: 8
+    _rightSideThrowInTake: 4
+    _name: Team004
+    _shortName: T4
+    _icon: {fileID: 21300000, guid: f988aedbe57d49040a2ac632832db6ce, type: 3}
+    _attackType: 1
+    _defendType: 2
+    _formationType: 3
+    _kits:
+    - _name: Home Kit
+      _imgIcon: {fileID: 21300000, guid: 63f42824f8a3aff4db6c01addc107a83, type: 3}
+      _goalKeeperKit: {fileID: 2800000, guid: 4353e6afbe75b8a4fa84bcf6def700b8, type: 3}
+      _inFieldPlayerKit: {fileID: 2800000, guid: 7de0290585740f54c8f8ef54594bbe8b,
+        type: 3}
+    - _name: Away Kit
+      _imgIcon: {fileID: 21300000, guid: 80fdbd9ead4edc244ade02a922dd19a6, type: 3}
+      _goalKeeperKit: {fileID: 2800000, guid: 4353e6afbe75b8a4fa84bcf6def700b8, type: 3}
+      _inFieldPlayerKit: {fileID: 2800000, guid: 5df8fcb8da24d224ea629ac2238bf87a,
+        type: 3}
+    _players:
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 1
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0
+    - _canJoinCornerKick: 0
+      _accuracy: 1
+      _diveSpeed: 1
+      _goalKeeping: 1
+      _jumpDistance: 1
+      _jumpHeight: 1
+      _power: 1
+      _reach: 1
+      _speed: 1
+      _tackling: 1
+      _id: 0
+      _firstname: 
+      _lastname: 
+      _kitName: 
+      _kitNumber: 
+      _playerPosition: 0

@@ -1,0 +1,438 @@
+fileFormatVersion: 2
+guid: 72e6ddbd38fe2fc4ea75fac09b78a8fb
+ModelImporter:
+  serializedVersion: 20300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Football_Stadium(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FlagMan
+      parentName: Football_Stadium(Clone)
+      position: {x: 10.860206, y: 2.7183286e-17, z: 62.481133}
+      rotation: {x: -6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: Bip005
+      parentName: FlagMan
+      position: {x: 0.0000000015068212, y: 0.94253325, z: 0.0861417}
+      rotation: {x: -0.50000036, y: 0.49999967, z: 0.49999967, w: 0.50000036}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: Bip005_Pelvis
+      parentName: Bip005
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.49999967, y: 0.50000036, z: 0.499999, w: 0.500001}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: Bip005_Spine
+      parentName: Bip005_Pelvis
+      position: {x: -0.099668056, y: -0.0001780987, z: 0.00000012591249}
+      rotation: {x: -0.99520266, y: -0.034979668, z: 0.0906527, w: 0.011412292}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: Bip005_Spine1
+      parentName: Bip005_Spine
+      position: {x: -0.225289, y: -0.00017939569, z: 0.000000019073488}
+      rotation: {x: 0.025921848, y: -0.09012406, z: -0.035897564, w: -0.99494576}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Bip005_Neck
+      parentName: Bip005_Spine1
+      position: {x: -0.23812059, y: -0.01725618, z: -0.000000038146972}
+      rotation: {x: -9.3132224e-10, y: -1.1926224e-16, z: 9.7144515e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip005_Head
+      parentName: Bip005_Neck
+      position: {x: -0.04885773, y: -0.000000009536743, z: 0.000000038146972}
+      rotation: {x: -0.00000002514571, y: -0.00000055879315, z: -0.00039807288, w: -1}
+      scale: {x: 0.9999999, y: 1, z: 0.9999998}
+    - name: Bip005_L_Clavicle
+      parentName: Bip005_Neck
+      position: {x: 0.01285431, y: -0.01139222, z: -0.00000007629394}
+      rotation: {x: 0.583133, y: 0.0025973958, z: -0.81236506, w: -0.003503274}
+      scale: {x: 0.9999999, y: 0.99999976, z: 0.9999996}
+    - name: Bip005_L_UpperArm
+      parentName: Bip005_L_Clavicle
+      position: {x: -0.14709139, y: 0, z: -0.0000001525879}
+      rotation: {x: -0.0086585805, y: 0.13073345, z: -0.0029014896, w: 0.99137557}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000004}
+    - name: Bip005_L_Forearm
+      parentName: Bip005_L_UpperArm
+      position: {x: -0.3027055, y: -0.00000007629394, z: 0.00000003814696}
+      rotation: {x: -0.010942435, y: 0.029667173, z: 0.020005824, w: 0.9992997}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: Bip005_L_Hand
+      parentName: Bip005_L_Forearm
+      position: {x: -0.2695979, y: -0.0000001525879, z: -0.00000003814699}
+      rotation: {x: -0.70682526, y: -0.00000023841858, z: 0.00000064074993, w: 0.7073882}
+      scale: {x: 0.9999999, y: 1, z: 0.99999964}
+    - name: Bip005_R_Clavicle
+      parentName: Bip005_Neck
+      position: {x: 0.01285431, y: -0.01139222, z: -3.410605e-15}
+      rotation: {x: -0.583135, y: 0.0021296917, z: -0.81236184, w: 0.0041482854}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: Bip005_R_UpperArm
+      parentName: Bip005_R_Clavicle
+      position: {x: -0.14709139, y: 0, z: 0}
+      rotation: {x: 0.009660796, y: -0.12992008, z: 0.015373465, w: 0.9913582}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000001}
+    - name: Bip005_R_Forearm
+      parentName: Bip005_R_UpperArm
+      position: {x: -0.3027055, y: 0, z: 0}
+      rotation: {x: 0.011117802, y: -0.030142669, z: 0.023220042, w: 0.99921405}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: Bip005_R_Hand
+      parentName: Bip005_R_Forearm
+      position: {x: -0.2695978, y: 1.1368684e-15, z: 9.094947e-15}
+      rotation: {x: 0.70682514, y: -0.00000071525574, z: 0.0000006556511, w: 0.70738834}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000001}
+    - name: Bip005_R_Thigh
+      parentName: Bip005_Spine
+      position: {x: 0.08141426, y: 0.011916699, z: -0.103303604}
+      rotation: {x: 0.06653983, y: -0.9898734, z: 0.021975257, w: 0.12345138}
+      scale: {x: 0.99999964, y: 0.99999964, z: 0.9999998}
+    - name: Bip005_R_Calf
+      parentName: Bip005_R_Thigh
+      position: {x: -0.4593584, y: -0.000000019073495, z: 0}
+      rotation: {x: -0.00000005960465, y: 0.000000029802326, z: 0.023941342, w: 0.9997134}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: Bip005_L_Thigh
+      parentName: Bip005_Spine
+      position: {x: 0.113143496, y: 0.011941499, z: 0.06706621}
+      rotation: {x: 0.06863561, y: -0.99564844, z: 0.024063552, w: 0.058261547}
+      scale: {x: 0.9999995, y: 0.9999999, z: 0.99999964}
+    - name: Bip005_L_Calf
+      parentName: Bip005_L_Thigh
+      position: {x: -0.4593584, y: -0.000000019073495, z: 0}
+      rotation: {x: -0.000000074505806, y: 0.000000029802322, z: -0.023941338, w: -0.9997134}
+      scale: {x: 1.0000004, y: 0.9999999, z: 1.0000001}
+    - name: Body
+      parentName: FlagMan
+      position: {x: -3.197745, y: -0.09063936, z: -9.094947e-15}
+      rotation: {x: -0.7071068, y: 1.4018218e-32, z: 2.084484e-32, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pipe
+      parentName: FlagMan
+      position: {x: 0.08315796, y: 0.57278866, z: 0.24898538}
+      rotation: {x: -0.67971504, y: -3.172646e-16, z: -2.9401024e-16, w: 0.7334763}
+      scale: {x: 0.448687, y: 0.4486871, z: 0.4486871}
+    - name: Flag
+      parentName: FlagMan
+      position: {x: -1.057964, y: 4.035795, z: 0.5130262}
+      rotation: {x: -0.67971504, y: -3.172646e-16, z: -2.9401024e-16, w: 0.7334763}
+      scale: {x: 0.448687, y: 0.4486871, z: 0.4486871}
+    - name: Bone001
+      parentName: FlagMan
+      position: {x: 0.1215799, y: 1.454362, z: 0.3100641}
+      rotation: {x: 0.026975675, y: 0.026785595, z: -0.70435715, w: 0.7088271}
+      scale: {x: 0.44868708, y: 0.44868675, z: 0.44868723}
+    - name: Bone003
+      parentName: Bone001
+      position: {x: -5.789339, y: -0.000002055168, z: 8.731149e-13}
+      rotation: {x: -0.000010918826, y: 0.000009745359, z: 0.70280254, w: 0.711385}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000006}
+    - name: Bone004
+      parentName: Bone003
+      position: {x: -0.52703106, y: -4.5474734e-15, z: -0.00000007057817}
+      rotation: {x: 0.00000012885585, y: -0.0000005207726, z: 0.0067201555, w: 0.99997747}
+      scale: {x: 1.0000007, y: 1, z: 1.0000005}
+    - name: Bone005
+      parentName: Bone004
+      position: {x: -0.50511163, y: 0.0000006103515, z: 4.3655745e-13}
+      rotation: {x: 0.0000002532696, y: 0.000000109750545, z: -0.007660728, w: 0.9999707}
+      scale: {x: 0.99999964, y: 0.9999999, z: 0.9999999}
+    - name: Bone006
+      parentName: Bone005
+      position: {x: -0.5012575, y: 0, z: 4.5474735e-13}
+      rotation: {x: 0.0000001184185, y: 0.0000001337885, z: 0.0057537495, w: 0.99998343}
+      scale: {x: 1.0000006, y: 1, z: 1.0000007}
+    - name: Bone007
+      parentName: Bone006
+      position: {x: -0.5051326, y: 0, z: -3.3105606e-12}
+      rotation: {x: 0.00000020803527, y: -0.0000003041483, z: 0.000014153775, w: 1}
+      scale: {x: 1.000001, y: 1, z: 1.0000004}
+    - name: Bone008
+      parentName: Bone007
+      position: {x: -0.5012152, y: 9.094947e-15, z: 4.3110047e-12}
+      rotation: {x: 0.000000484288, y: 0.00000036238117, z: -0.005783207, w: 0.9999833}
+      scale: {x: 1.0000004, y: 0.9999998, z: 0.9999996}
+    - name: Bone009
+      parentName: Bone008
+      position: {x: -0.4993277, y: -9.094947e-15, z: 2.1100276e-12}
+      rotation: {x: -0.0000011258543, y: -0.000000034528224, z: 0.0038610222, w: 0.9999926}
+      scale: {x: 1.0000008, y: 1, z: 0.99999964}
+    - name: Bone010
+      parentName: Bone009
+      position: {x: -0.5070251, y: 0, z: 4.1836754e-13}
+      rotation: {x: -0.0000017318742, y: -0.00000094935183, z: -0.0019005758, w: 0.9999983}
+      scale: {x: 1.0000004, y: 1.0000002, z: 0.99999964}
+    - name: Bone011
+      parentName: Bone010
+      position: {x: -0.5070285, y: 0, z: -1.891749e-12}
+      rotation: {x: -0.0000011533588, y: 0.0000009125301, z: 0.009505049, w: 0.9999549}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: Bone012
+      parentName: Bone011
+      position: {x: -0.50707, y: 0.00005737305, z: -2.6915586e-10}
+      rotation: {x: 0.0000036072688, y: -0.0000001625723, z: -0.01331707, w: 0.99991137}
+      scale: {x: 0.9999994, y: 1.0000001, z: 1.0000002}
+    - name: Bone002
+      parentName: Bone001
+      position: {x: -5.789339, y: -0.000001945496, z: 0.00000007839211}
+      rotation: {x: 0.000000009313227, y: -0.000000022351744, z: -0.000000001571607, w: 1}
+      scale: {x: 1.0000005, y: 1, z: 1.0000005}
+    - name: PhotoCam
+      parentName: Football_Stadium(Clone)
+      position: {x: -0.934251, y: 0.29352185, z: 62.297146}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000002}
+    - name: Mic
+      parentName: Football_Stadium(Clone)
+      position: {x: -2.4691212, y: 0.18923102, z: 62.132698}
+      rotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000002}
+    - name: Security
+      parentName: Football_Stadium(Clone)
+      position: {x: -11.789093, y: 0.8836391, z: 62.673107}
+      rotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000002}
+    - name: CameraMan1
+      parentName: Football_Stadium(Clone)
+      position: {x: -10.137736, y: 0.8862725, z: 62.673107}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000002}
+    - name: CameraMan2
+      parentName: Football_Stadium(Clone)
+      position: {x: -8.574478, y: 0.64674765, z: 62.673107}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000002}
+    - name: MedicalMan
+      parentName: Football_Stadium(Clone)
+      position: {x: -6.9126325, y: 1.0092692, z: 62.673107}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000002}
+    - name: TeamStand1
+      parentName: Football_Stadium(Clone)
+      position: {x: 44.371407, y: -0.00090632134, z: -9.265324}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000002}
+    - name: StandWire
+      parentName: TeamStand1
+      position: {x: -0, y: 0.86804634, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: StandSteel
+      parentName: TeamStand1
+      position: {x: -0, y: 0.8311532, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: StandGlass
+      parentName: TeamStand1
+      position: {x: -0, y: 0.8311532, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlayerB1
+      parentName: TeamStand1
+      position: {x: -1.5646127, y: 0.61603665, z: -0.03935051}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlayerB2
+      parentName: TeamStand1
+      position: {x: -0.30251428, y: 0.6306693, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pipe_2
+      parentName: TeamStand1
+      position: {x: -0, y: 0.8311532, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: StandSeats
+      parentName: TeamStand1
+      position: {x: -0, y: 0.8311532, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Refreshments
+      parentName: TeamStand1
+      position: {x: -0, y: 1.3877787e-19, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Stadium
+      parentName: Football_Stadium(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CornerKickFlags
+      parentName: Stadium
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: FlagCorner
+      parentName: CornerKickFlags
+      position: {x: 0.3746733, y: -0.5500199, z: -0.00055912766}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 0.003937008, y: 0.0039370107, z: 0.0039370107}
+    - name: CornerFlagFour_000
+      parentName: CornerKickFlags
+      position: {x: -0.37446845, y: 0.5494214, z: 0.007495261}
+      rotation: {x: 1.9953655e-14, y: 0.00000003774895, z: 1, w: 0.00000013286288}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CornerFlagFour_001
+      parentName: CornerKickFlags
+      position: {x: 0.37446845, y: 0.5494214, z: 0.007495261}
+      rotation: {x: 1.9953655e-14, y: 0.00000003774895, z: 1, w: 0.00000013286288}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CornerFlagFour_002
+      parentName: CornerKickFlags
+      position: {x: -0.37446845, y: -0.5494215, z: 0.007495261}
+      rotation: {x: 1.9953655e-14, y: 0.00000003774895, z: 1, w: 0.00000013286288}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goal
+      parentName: Stadium
+      position: {x: 1.5246591e-20, y: 0.000008960636, z: -55}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Net
+      parentName: Goal
+      position: {x: 5.2516043e-22, y: 0.01536953, z: -1.2369195e-12}
+      rotation: {x: 2.4651903e-32, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: WoodWork_001
+      parentName: Goal
+      position: {x: 5.2516043e-22, y: 0.015369566, z: -1.2369195e-12}
+      rotation: {x: 0.00000008146034, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 0.9999997, z: 1}
+    - name: Goal__1_
+      parentName: Stadium
+      position: {x: -0, y: 8.8462825e-15, z: 55.010002}
+      rotation: {x: 0, y: 0.7071068, z: 0.7071068, w: -8.659561e-17}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Net_1
+      parentName: Goal__1_
+      position: {x: 5.2516043e-22, y: 0.01536953, z: -1.236906e-12}
+      rotation: {x: -2.4651906e-32, y: 7.306193e-33, z: 0, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: WoodWork_001_1
+      parentName: Goal__1_
+      position: {x: 5.2516043e-22, y: 0.015369566, z: -1.236906e-12}
+      rotation: {x: 0.00000008146034, y: 7.306194e-33, z: 1.2325951e-32, w: 1}
+      scale: {x: 1, y: 0.9999997, z: 1}
+    - name: FieldLines
+      parentName: Stadium
+      position: {x: -0, y: 0.02, z: -3.2162451e-18}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Ad
+      parentName: Stadium
+      position: {x: -22.55369, y: 0.71747905, z: 67.83433}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Light
+      parentName: Stadium
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crowd
+      parentName: Stadium
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Plane
+      parentName: Stadium
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
